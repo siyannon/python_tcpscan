@@ -31,11 +31,11 @@ Run the script with Python and specify the target IP and ports to scan. The scri
 python tcpscan.py [-h] -ip IP [-p PORT | -r RANGE] [-t TIMEOUT]
 ```
 ###### Options
--ip IP: Target IP address (e.g., 192.168.192.227) (required)
--p PORT: Single port to scan (e.g., 80)
--r RANGE: Port range to scan (e.g., 80-100)
--t TIMEOUT: Timeout in seconds (default: 20)
--h: Show help message
+- -ip IP: Target IP address (e.g., 192.168.192.227) (required)
+- -p PORT: Single port to scan (e.g., 80)
+- -r RANGE: Port range to scan (e.g., 80-100)
+- -t TIMEOUT: Timeout in seconds (default: 20)
+- -h: Show help message
 Note: Either -p or -r must be specified, but not both.
 
 ## Examples

@@ -49,6 +49,8 @@ Scanning 192.168.192.227 with timeout 10s...
 Port 80 is open
 Scan completed.
 ```
+![Uploading 屏幕截图(900).png…]()
+
 ###### Scan a range of ports:
 ```python
 python script.py -ip 192.168.192.227 -r 80-85 -t 15
@@ -62,16 +64,14 @@ Port 82 is closed or filtered (no response)
 ...
 Scan completed.
 ```
+![屏幕截图(898)](https://github.com/user-attachments/assets/6c1fa955-45ee-45f1-a6a8-d8a25ede9cda)
+
 ###### Show help:
 ```python
 python script.py -h
 ```
-Running the Script
-Windows: Run with administrator privileges (e.g., open Command Prompt as Administrator).
-Linux/Mac: Use sudo to run the script:
-```bash
-sudo python script.py -ip 192.168.192.227 -p 80
-```
+![屏幕截图(897)](https://github.com/user-attachments/assets/335e4116-a886-4c9c-b452-be6fd2637abd)
+
 ## Notes
 - The script requires root/admin privileges to send raw packets via Scapy.
 - Ensure the target IP is reachable within your network.

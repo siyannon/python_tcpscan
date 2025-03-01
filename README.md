@@ -49,7 +49,8 @@ Scanning 192.168.192.227 with timeout 10s...
 Port 80 is open
 Scan completed.
 ```
-![Uploading 屏幕截图(900).png…]()
+![屏幕截图(900)](https://github.com/user-attachments/assets/2ba537a0-e880-4705-89e6-ef73789e5dc5)
+
 
 ###### Scan a range of ports:
 ```python
